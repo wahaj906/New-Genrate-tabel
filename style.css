@@ -1,0 +1,104 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #e0f7fa;
+  margin: 0;
+}
+
+.container {
+  text-align: center;
+  background: #520101;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 100%;
+  transition: transform 0.3s ease;
+}
+
+.container:hover {
+  transform: translateY(-10px);
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-size: 28px;
+  color: #333;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #555;
+}
+
+input[type="number"] {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 2px solid #000000;
+  border-radius: 8px;
+  box-sizing: border-box;
+  font-size: 16px;
+  transition: border-color 0.3s ease;
+}
+
+input[type="number"]:focus {
+  border-color: #000000;
+}
+
+button {
+  padding: 12px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #0d0d0d;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+  background-color: #050505;
+  transform: scale(1.05);
+}
+
+#tableContainer {
+  margin-top: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table,
+th,
+td {
+  border: 1px solid #ddd;
+}
+
+th {
+  padding: 12px;
+  text-align: center;
+  font-size: 18px;
+  background-color: #070707;
+  color: #fff;
+}
+
+td {
+  padding: 12px;
+  text-align: center;
+  font-size: 18px;
+  background-color: #830707;
+  color: #333;
+}
+
+tr:hover td {
+  background-color: #a20e0e;
+}
