@@ -26,14 +26,14 @@ body {
 h1 {
   margin-bottom: 20px;
   font-size: 28px;
-  color: #333;
+  color: #fff;
 }
 
 label {
   display: block;
   margin-bottom: 10px;
   font-weight: bold;
-  color: #555;
+  color: #fff;
 }
 
 input[type="number"] {
@@ -95,8 +95,8 @@ td {
   padding: 12px;
   text-align: center;
   font-size: 18px;
-  background-color: #830707;
-  color: #333;
+  background-color:#cecece;
+  color: #682f2f;
 }
 
 tr:hover td {
